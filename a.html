@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: Century Gothic;
+            }
+
+            header {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("abcd.jpg");
+                height: 100vh;
+                background-size: cover;
+                background-position: centre;
+            }
+
+            ul {
+                float: right;
+                list-style-type: none;
+                margin-top: 25px;
+            }
+
+            ul li {
+                display: inline-block;
+            }
+
+            ul li a {
+                text-decoration: none;
+                color: #fff;
+                padding: 6px 23px;
+                border: 1px solid transparent;
+                transition: 0.6s ease;
+            }
+
+            ul li a:hover {
+                background-color: #ffff;
+                color: #000;
+            }
+
+            ul li.active a {
+                background-color: #ffff;
+                color: #000;
+            }
+
+            .logo img {
+                float: left;
+                width: 155px;
+                height: auto;
+            }
+
+            .main {
+                max-width: 1200px;
+                margin: auto;
+            }
+
+            .title {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .title h1 {
+                color: #fff;
+                font-size: 70px;
+            }
+
+            .button {
+                position: absolute;
+                top: 63%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .btn {
+                border: 1px solid #66CDAA;
+                padding: 14px 40 px;
+                color: #fff;
+                text-decoration: none;
+                transition: 0.6s ease;
+                font-size: 30px;
+            }
+
+            .btn:hover {
+                background-color: #fff;
+                color: #000;
+            }
+
+        </style>
+
+        <title>SEAWORLD RESORT</title>
+    </head>
+
+<body>
+
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="logo.png">
+            </div>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+              
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact info</a></li>
+                <li><a href="login.php">Login</a></li>
+            </ul>
+
+        </div>
+        <div class="title">
+            <h1>SEAWORLD RESORT</h1>
+        </div>
+        <div class="button">
+            <a href="register.php" class="btn">Book Now!!</a>
+        </div>
+    </header>
+</body>
+
+</html>
+l
